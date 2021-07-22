@@ -1,0 +1,39 @@
+.application{
+    background-image: url("../Home/image/application.jpg");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    background-image: linear-gradient( blue);
+}
+.applicationDetails{
+    background-color: rgb(228, 222, 222);
+    border-radius: 20px;
+    opacity: 0.7;
+    padding: 10px;
+    margin-top: 20px !important; 
+}
+
+.applicationbackground{
+    justify-content: center;
+}
+.applybtn{
+    background: none;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px; 
+    font-size: 18px;
+    font-weight: 700; 
+    color: rgb(46, 46, 161);
+}
+.applybtn:hover{
+    background-color: rgb(189, 171, 171);
+    transition: 1s;
+}
+.applicationDetails p{
+    color: rgb(46, 46, 161);
+    font-size: 19px;
+    font-weight: 600;
+}
+.answer{
+    color: rgb(235, 70, 70);
+}

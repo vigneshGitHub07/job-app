@@ -1,0 +1,76 @@
+.first {
+    background-image: url(image/job.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .logo{
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .header{
+    background-color: rgb(173, 171, 171);
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0.7;
+  }
+  .header p {
+    margin: 0px;
+  }
+  .title{
+    font-size: 45px;
+    padding-left: 15px;
+    color: rgb(46, 46, 161);
+    font-weight: 600;
+    opacity: 1;
+    
+  }
+  .content{
+    justify-content: center;
+    text-align: center;
+  }
+  .applyjob{
+    background-color: rgb(173, 171, 171);
+    opacity: .8;
+    /* border-top-left-radius: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 100px; */
+    border-radius: 30px;
+    height: 100px;
+    transition: 1s;
+    overflow: hidden;
+    box-shadow: 3px 10px 10px;
+  }
+  .applyjob h3{
+    color: rgb(235, 70, 70);
+    text-align: left;
+  }
+  .applyjob h5{
+    color: rgb(17, 15, 15);
+  }
+  .jobbutton{
+    padding: 10px;
+    margin-top: 30px;
+    background: none;
+    color: rgb(17, 15, 15);
+    border-radius: 20px;
+    font-size: 20px;
+    width: 150px;
+    font-weight: 700;
+  }
+  .applyjob:hover{
+    border-top-right-radius: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 10px;
+    height: 350px;
+    border: 2px solid black;
+  }
+  .applyjob p {
+    font-size: 40px;
+    padding-top: 20px;
+    color: rgb(46, 46, 161);
+  }
